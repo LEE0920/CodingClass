@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Title</title>
+		<style type="text/css">
+		   body {
+			border-style: solid;
+			border-color: red;
+			border-width: medium;
+		}
+		#transition {
+		    width: 150px;
+		    hieght: 50px;
+		    background: black;
+		    transition: height 2s;
+		}
+		#transition:hover {
+		    height: 300px;
+		}
+	    </style>
+	</head>
+	<body>
+	     BUCCI
+<br>
+<marquee>Bucci Bang Bucci Bang Bucci Bang Bucci Bang Bucci Bang Bucci Bang Bucci Bang</marquee>
+<div id="transition">BUCCI BANG</div>
+</body>
+</html>
